@@ -1,0 +1,57 @@
+.content{
+  min-height: calc(67vh);
+}
+
+.default {
+  width: calc(80%);
+  margin: 0 auto;
+  min-height: calc(67vh);
+
+  .bottomBtn {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .mapSearch {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 6px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+  }
+}
+
+.statistics {
+  .card {
+    height: 160px;
+
+    :global {
+      .ant-statistic-content-value-decimal {
+        font-size: 24px !important;
+      }
+    }
+
+    .cardSpan {
+      color: #8D8D8D;
+    }
+
+    .category {
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.85);
+      line-height: 2;
+    }
+  }
+
+  :global {
+    .ant-divider-horizontal {
+      margin: 24px 0 5px 0;
+    }
+  }
+}
+
+.recycleCategory {
+  font-size: 14px;
+  color: rgba(0, 0, 0, .85)
+}
